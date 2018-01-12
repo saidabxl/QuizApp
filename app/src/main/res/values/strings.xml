@@ -19,14 +19,14 @@
     <string name="question2answer3_txt">Cairo</string>
 
     <string name="thirdQuestions">Who was the first chairman of the OAU when it was disbanded and replaced by the AU?</string>
-    <string name="question3answer1_txt">S. Barre</string>
-    <string name="question3answer2_txt">Mandela</string>
+    <string name="question3answer1_txt">Si\'ad Barre</string>
+    <string name="question3answer2_txt"> Nelson Mandela</string>
     <string name="question3answer3_txt">Thabo Mbeki</string>
 
     <string name="fourthQuestions">What is Africa\'s highest mountain?</string>
 
     <string name="question4answer1_txt">Surad</string>
-    <string name="question4answer2_txt">Mt. Kilimanjaro</string>
+    <string name="question4answer2_txt">Mount Kilimanjaro</string>
     <string name="question4answer3_txt">Kilimanjaro</string>
 
     <string name="fiveQuestions">Which is the Africa\'s biggest city?</string>
