@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="margin1">8dp</dimen>
+    <dimen name="padding1">16dp</dimen>
+    <dimen name="padding2">8dp</dimen>
+    <dimen name="margin2">8dp</dimen>
+    <dimen name="margin_top">16dp</dimen>
+    <dimen name="padding3">12dp</dimen>
+    <dimen name="padding4">16dp</dimen>
+    <dimen name="margin3">16dp</dimen>
+    <dimen name="padding5">22dp</dimen>
+    <dimen name="marginbottom">8dp</dimen>
+    <dimen name="padding">4dp</dimen>
+
+</resources>
