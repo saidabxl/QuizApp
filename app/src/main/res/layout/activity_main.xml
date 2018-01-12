@@ -202,8 +202,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/question4answer1_txt"
-                android:textColor="#616161"
-                />
+                android:textColor="#616161" />
 
             <CheckBox
                 android:id="@+id/question4answer2"
