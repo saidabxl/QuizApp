@@ -66,13 +66,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#E3F2FD"
+            android:background="@color/background"
             android:gravity="center"
             android:padding="@dimen/padding2"
             android:text="@string/firstQuestion"
             android:textSize="18sp" />
 
-        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        <RadioGroup
             android:id="@+id/question1radioGroup"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -85,21 +85,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/question1answer1_txt"
-                android:textColor="#616161" />
+                android:textColor="@color/text" />
 
             <RadioButton
                 android:id="@+id/question1answer2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/question1answer2_txt"
-                android:textColor="#616161" />
+                android:textColor="@color/text" />
 
             <RadioButton
                 android:id="@+id/question1answer3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/question1answer3_txt"
-                android:textColor="#616161" />
+                android:textColor="@color/text" />
         </RadioGroup>
 
 
@@ -112,7 +112,7 @@
             android:text="@string/secQuestions"
             android:textSize="18sp" />
 
-        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        <RadioGroup
             android:id="@+id/question2radioGroup"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -125,21 +125,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/question2answer1_txt"
-                android:textColor="#616161" />
+                android:textColor="@color/text" />
 
             <RadioButton
                 android:id="@+id/question2answer2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/question2answer2_txt"
-                android:textColor="#616161" />
+                android:textColor="@color/text" />
 
             <RadioButton
                 android:id="@+id/question2answer3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/question2answer3_txt"
-                android:textColor="#616161" />
+                android:textColor="@color/text" />
         </RadioGroup>
 
         <TextView
@@ -151,7 +151,7 @@
             android:text="@string/thirdQuestions"
             android:textSize="18sp" />
 
-        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        <RadioGroup
             android:id="@+id/question3radioGroup"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -164,7 +164,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/question3answer1_txt"
-                android:textColor="#616161" />
+                android:textColor="@color/text" />
 
             <RadioButton
                 android:id="@+id/question3answer2"
@@ -178,7 +178,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/question3answer3_txt"
-                android:textColor="#616161" />
+                android:textColor="@color/text" />
         </RadioGroup>
 
         <TextView
@@ -201,7 +201,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/question4answer1_txt"
-                android:textColor="#616161" />
+                android:textColor="@color/text" />
 
             <CheckBox
                 android:id="@+id/question4answer2"
@@ -215,7 +215,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/question4answer3_txt"
-                android:textColor="#616161" />
+                android:textColor="@color/text" />
         </LinearLayout>
 
         <TextView
@@ -239,25 +239,24 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/question5answer1_txt"
-                android:textColor="#616161" />
+                android:textColor="@color/text" />
 
             <CheckBox
                 android:id="@+id/question5answer2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/question5answer2_txt"
-                android:textColor="#616161" />
+                android:textColor="@color/text" />
 
             <CheckBox
                 android:id="@+id/question5answer3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/question5answer3_txt"
-                android:textColor="#616161" />
+                android:textColor="@color/text" />
 
 
         </LinearLayout>
-
 
         <Button
             android:layout_width="match_parent"
