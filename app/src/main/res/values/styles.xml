@@ -7,6 +7,7 @@
         <item name="colorPrimary">#424242</item>
         <item name="colorPrimaryDark">#424242</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
     </style>
 
 
