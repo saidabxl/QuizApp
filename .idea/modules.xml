@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/QuizApp.iml" filepath="$PROJECT_DIR$/QuizApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/project.iml" filepath="$PROJECT_DIR$/project.iml" />
+      <module fileurl="file://E:\Users\User\latest\QuizApp\project.iml" filepath="E:\Users\User\latest\QuizApp\project.iml" />
     </modules>
   </component>
 </project>
