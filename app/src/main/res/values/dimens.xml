@@ -12,6 +12,7 @@
     <dimen name="padding">4dp</dimen>
     <dimen name="textsize">18sp</dimen>
     <dimen name="marginbottom2">0dp</dimen>
+    <dimen name="textsize2">24sp</dimen>
 
 
 </resources>

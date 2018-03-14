@@ -20,21 +20,22 @@ public class MainActivity extends AppCompatActivity {
     RadioGroup radioGroup1;
     RadioGroup radioGroup2;
     RadioGroup radioGroup3;
-    RadioButton question1answer1_RadioButton;
-    RadioButton question1answer2_RadioButton;
-    RadioButton question1answer3_RadioButton;
-    RadioButton question2answer1_RadioButton;
-    RadioButton question2answer2_RadioButton;
-    RadioButton question2answer3_RadioButton;
-    RadioButton question3answer1_RadioButton;
-    RadioButton question3answer2_RadioButton;
-    RadioButton question3answer3_RadioButton;
-    CheckBox question4answer1_CheckBox;
-    CheckBox question4answer2_CheckBox;
-    CheckBox question4answer3_CheckBox;
-    CheckBox question5answer1_CheckBox;
-    CheckBox question5answer2_CheckBox;
-    CheckBox question5answer3_CheckBox;
+    RadioGroup radioGroup4;
+    RadioButton question1answer1_sudan;
+    RadioButton question1answer2_kenya;
+    RadioButton question1answer3_south_sudan;
+    RadioButton question2answer1_mogadishu;
+    RadioButton question2answer2_addis;
+    RadioButton question2answer3_cairo;
+    RadioButton question3answer1_Siad_barre;
+    RadioButton question3answer2_mandela;
+    RadioButton question3answer3_mbeki;
+    CheckBox question4answer1_surad;
+    CheckBox question4answer2_m_kilimanjaro;
+    CheckBox question4answer3_kilimanjaro;
+    RadioButton question5answer1_nairobi;
+    RadioButton question5answer2_lagos;
+    RadioButton question5answer3_kinshasa;
     EditText nameInput;
 
     @Override
@@ -45,21 +46,22 @@ public class MainActivity extends AppCompatActivity {
         radioGroup1 = ( RadioGroup ) findViewById(R.id.question1radioGroup);
         radioGroup2 = ( RadioGroup ) findViewById(R.id.question2radioGroup);
         radioGroup3 = ( RadioGroup ) findViewById(R.id.question3radioGroup);
-        question1answer1_RadioButton = findViewById(R.id.question1answer1);
-        question1answer2_RadioButton = findViewById(R.id.question1answer2);
-        question1answer3_RadioButton = findViewById(R.id.question1answer3);
-        question2answer1_RadioButton = findViewById(R.id.question2answer1);
-        question2answer2_RadioButton = findViewById(R.id.question2answer2);
-        question2answer3_RadioButton = findViewById(R.id.question2answer3);
-        question3answer1_RadioButton = findViewById(R.id.question3answer1);
-        question3answer2_RadioButton = findViewById(R.id.question3answer2);
-        question3answer3_RadioButton = findViewById(R.id.question3answer3);
-        question4answer1_CheckBox = findViewById(R.id.question4answer1);
-        question4answer2_CheckBox = findViewById(R.id.question4answer2);
-        question4answer3_CheckBox = findViewById(R.id.question4answer3);
-        question5answer1_CheckBox = findViewById(R.id.question5answer1);
-        question5answer2_CheckBox = findViewById(R.id.question5answer2);
-        question5answer3_CheckBox = findViewById(R.id.question5answer3);
+        radioGroup4 = (RadioGroup) findViewById(R.id.question4radioGroup);
+        question1answer1_sudan = findViewById(R.id.question1answer1_sudan);
+        question1answer2_kenya = findViewById(R.id.question1answer2_kenya);
+        question1answer3_south_sudan = findViewById(R.id.question1answer3_south_sudan);
+        question2answer1_mogadishu = findViewById(R.id.question2answer1_mogadishu);
+        question2answer2_addis = findViewById(R.id.question2answer2_addis);
+        question2answer3_cairo = findViewById(R.id.question2answer3_cairo);
+        question3answer1_Siad_barre = findViewById(R.id.question3answer1_Siad_barre);
+        question3answer2_mandela = findViewById(R.id.question3answer2_mandela);
+        question3answer3_mbeki = findViewById(R.id.question3answer3_mbeki);
+        question4answer1_surad = findViewById(R.id.question4answer1_surad);
+        question4answer2_m_kilimanjaro = findViewById(R.id.question4answer2_m_kilimanjaro);
+        question4answer3_kilimanjaro = findViewById(R.id.question4answer3_kilimanjaro);
+        question5answer1_nairobi = findViewById(R.id.question5answer1_nairobi);
+        question5answer2_lagos = findViewById(R.id.question5answer2_lagos);
+        question5answer3_kinshasa = findViewById(R.id.question5answer3_kinshasa);
         nameInput = ( EditText ) findViewById(R.id.firstAnswer);
 
     }
@@ -89,29 +91,29 @@ public class MainActivity extends AppCompatActivity {
         String userName = nameInput.getText().toString();
 
         //1 question - take answers to array
-        userCheckAnswers[0][0] = question1answer1_RadioButton.isChecked();
-        userCheckAnswers[0][1] = question1answer2_RadioButton.isChecked();
-        userCheckAnswers[0][2] = question1answer3_RadioButton.isChecked();
+        userCheckAnswers[0][0] = question1answer1_sudan.isChecked();
+        userCheckAnswers[0][1] = question1answer2_kenya.isChecked();
+        userCheckAnswers[0][2] = question1answer3_south_sudan.isChecked();
 
         //2 question - take answers to array
-        userCheckAnswers[1][0] = question2answer1_RadioButton.isChecked();
-        userCheckAnswers[1][1] = question2answer2_RadioButton.isChecked();
-        userCheckAnswers[1][2] = question2answer3_RadioButton.isChecked();
+        userCheckAnswers[1][0] = question2answer1_mogadishu.isChecked();
+        userCheckAnswers[1][1] = question2answer2_addis.isChecked();
+        userCheckAnswers[1][2] = question2answer3_cairo.isChecked();
 
         //3 question - take answers to array
-        userCheckAnswers[2][0] = question3answer1_RadioButton.isChecked();
-        userCheckAnswers[2][1] = question3answer2_RadioButton.isChecked();
-        userCheckAnswers[2][2] = question3answer3_RadioButton.isChecked();
+        userCheckAnswers[2][0] = question3answer1_Siad_barre.isChecked();
+        userCheckAnswers[2][1] = question3answer2_mandela.isChecked();
+        userCheckAnswers[2][2] = question3answer3_mbeki.isChecked();
 
         //4 question - take answers to array
-        userCheckAnswers[3][0] = question4answer1_CheckBox.isChecked();
-        userCheckAnswers[3][1] = question4answer2_CheckBox.isChecked();
-        userCheckAnswers[3][2] = question4answer3_CheckBox.isChecked();
+        userCheckAnswers[3][0] = question4answer1_surad.isChecked();
+        userCheckAnswers[3][1] = question4answer2_m_kilimanjaro.isChecked();
+        userCheckAnswers[3][2] = question4answer3_kilimanjaro.isChecked();
 
         //5 question - take answers to array
-        userCheckAnswers[4][0] = question5answer1_CheckBox.isChecked();
-        userCheckAnswers[4][1] = question5answer2_CheckBox.isChecked();
-        userCheckAnswers[4][2] = question5answer3_CheckBox.isChecked();
+        userCheckAnswers[4][0] = question5answer1_nairobi.isChecked();
+        userCheckAnswers[4][1] = question5answer2_lagos.isChecked();
+        userCheckAnswers[4][2] = question5answer3_kinshasa.isChecked();
 
         //Checking arrays and making toast
 
@@ -145,17 +147,18 @@ public class MainActivity extends AppCompatActivity {
         RadioGroup radioGroup1 = ( RadioGroup ) findViewById(R.id.question1radioGroup);
         RadioGroup radioGroup2 = ( RadioGroup ) findViewById(R.id.question2radioGroup);
         RadioGroup radioGroup3 = ( RadioGroup ) findViewById(R.id.question3radioGroup);
+        RadioGroup radioGroup4 = (RadioGroup) findViewById(R.id.question4radioGroup);
+
 
         radioGroup1.clearCheck();
         radioGroup2.clearCheck();
         radioGroup3.clearCheck();
+        radioGroup4.clearCheck();
 
-        if (question4answer1_CheckBox.isChecked()) question4answer1_CheckBox.toggle();
-        if (question4answer2_CheckBox.isChecked()) question4answer2_CheckBox.toggle();
-        if (question4answer3_CheckBox.isChecked()) question4answer3_CheckBox.toggle();
-        if (question5answer1_CheckBox.isChecked()) question5answer1_CheckBox.toggle();
-        if (question5answer2_CheckBox.isChecked()) question5answer2_CheckBox.toggle();
-        if (question5answer3_CheckBox.isChecked()) question5answer3_CheckBox.toggle();
+        if (question4answer1_surad.isChecked()) question4answer1_surad.toggle();
+        if (question4answer2_m_kilimanjaro.isChecked()) question4answer2_m_kilimanjaro.toggle();
+        if (question4answer3_kilimanjaro.isChecked()) question4answer3_kilimanjaro.toggle();
+
 
     }
 }

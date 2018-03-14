@@ -9,31 +9,31 @@
     <string name="image">au</string>
 
     <string name="firstQuestion">Which one is Africa\'s newest country?</string>
-    <string name="question1answer1_txt">Sudan</string>
-    <string name="question1answer2_txt">Kenya</string>
-    <string name="question1answer3_txt">South Sudan</string>
+    <string name="question1answer1_sudan">Sudan</string>
+    <string name="question1answer2_kenya">Kenya</string>
+    <string name="question1answer3_south_sudan">South Sudan</string>
 
     <string name="secQuestions">Where is the headquarters of the African Union? </string>
-    <string name="question2answer1_txt">Mogadishu</string>
-    <string name="question2answer2_txt"> Addis Ababa </string>
-    <string name="question2answer3_txt">Cairo</string>
+    <string name="question2answer1_mogadishu">Mogadishu</string>
+    <string name="question2answer2_addis"> Addis Ababa </string>
+    <string name="question2answer3_cairo">Cairo</string>
 
     <string name="thirdQuestions">Who was the first chairman of the OAU when it was disbanded and replaced by the AU?</string>
-    <string name="question3answer1_txt">Si\'ad Barre</string>
-    <string name="question3answer2_txt"> Nelson Mandela</string>
-    <string name="question3answer3_txt">Thabo Mbeki</string>
+    <string name="question3answer1_Siad_barre">Si\'ad Barre</string>
+    <string name="question3answer2_mandela"> Nelson Mandela</string>
+    <string name="question3answer3_mbeki">Thabo Mbeki</string>
 
     <string name="fourthQuestions">What is Africa\'s highest mountain?</string>
 
-    <string name="question4answer1_txt">Surad</string>
-    <string name="question4answer2_txt">Mount Kilimanjaro</string>
-    <string name="question4answer3_txt">Kilimanjaro</string>
+    <string name="question4answer1_surad">Surad</string>
+    <string name="question4answer2_m_kilimanjaro">Mount Kilimanjaro</string>
+    <string name="question4answer3_kilimanjaro">Kilimanjaro</string>
 
     <string name="fiveQuestions">Which is the Africa\'s biggest city?</string>
 
-    <string name="question5answer1_txt">Nairobi</string>
-    <string name="question5answer2_txt">Lagos</string>
-    <string name="question5answer3_txt">Kinshasa</string>
+    <string name="question5answer1_nairobi">Nairobi</string>
+    <string name="question5answer2_lagos">Lagos</string>
+    <string name="question5answer3_kinshasa">Kinshasa</string>
 
 
     <string name="checkAnswers">Check Your answers!</string>

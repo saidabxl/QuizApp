@@ -36,19 +36,19 @@
             style="@style/radiogroup">
 
             <RadioButton
-                android:id="@+id/question1answer1"
+                android:id="@+id/question1answer1_sudan"
                 style="@style/radiobutton"
-                android:text="@string/question1answer1_txt" />
+                android:text="@string/question1answer1_sudan" />
 
             <RadioButton
-                android:id="@+id/question1answer2"
+                android:id="@+id/question1answer2_kenya"
                 style="@style/radiobutton"
-                android:text="@string/question1answer2_txt" />
+                android:text="@string/question1answer2_kenya" />
 
             <RadioButton
-                android:id="@+id/question1answer3"
+                android:id="@+id/question1answer3_south_sudan"
                 style="@style/radiobutton"
-                android:text="@string/question1answer3_txt" />
+                android:text="@string/question1answer3_south_sudan" />
         </RadioGroup>
 
 
@@ -61,19 +61,19 @@
             style="@style/radiogroup">
 
             <RadioButton
-                android:id="@+id/question2answer1"
+                android:id="@+id/question2answer1_mogadishu"
                 style="@style/radiobutton"
-                android:text="@string/question2answer1_txt" />
+                android:text="@string/question2answer1_mogadishu" />
 
             <RadioButton
-                android:id="@+id/question2answer2"
+                android:id="@+id/question2answer2_addis"
                 style="@style/radiobutton"
-                android:text="@string/question2answer2_txt" />
+                android:text="@string/question2answer2_addis" />
 
             <RadioButton
-                android:id="@+id/question2answer3"
+                android:id="@+id/question2answer3_cairo"
                 style="@style/radiobutton"
-                android:text="@string/question2answer3_txt" />
+                android:text="@string/question2answer3_cairo" />
         </RadioGroup>
 
         <TextView
@@ -85,19 +85,19 @@
             style="@style/radiogroup">
 
             <RadioButton
-                android:id="@+id/question3answer1"
+                android:id="@+id/question3answer1_Siad_barre"
                 style="@style/radiobutton"
-                android:text="@string/question3answer1_txt" />
+                android:text="@string/question3answer1_Siad_barre" />
 
             <RadioButton
-                android:id="@+id/question3answer2"
+                android:id="@+id/question3answer2_mandela"
                 style="@style/radiobutton"
-                android:text="@string/question3answer2_txt" />
+                android:text="@string/question3answer2_mandela" />
 
             <RadioButton
-                android:id="@+id/question3answer3"
+                android:id="@+id/question3answer3_mbeki"
                 style="@style/radiobutton"
-                android:text="@string/question3answer3_txt" />
+                android:text="@string/question3answer3_mbeki" />
         </RadioGroup>
 
         <TextView
@@ -107,19 +107,19 @@
         <LinearLayout style="@style/Linearlayouttwo">
 
             <CheckBox
-                android:id="@+id/question4answer1"
+                android:id="@+id/question4answer1_surad"
                 style="@style/checkbox"
-                android:text="@string/question4answer1_txt" />
+                android:text="@string/question4answer1_surad" />
 
             <CheckBox
-                android:id="@+id/question4answer2"
+                android:id="@+id/question4answer2_m_kilimanjaro"
                 style="@style/checkbox"
-                android:text="@string/question4answer2_txt" />
+                android:text="@string/question4answer2_m_kilimanjaro" />
 
             <CheckBox
-                android:id="@+id/question4answer3"
+                android:id="@+id/question4answer3_kilimanjaro"
                 style="@style/checkbox"
-                android:text="@string/question4answer3_txt" />
+                android:text="@string/question4answer3_kilimanjaro" />
 
         </LinearLayout>
 
@@ -127,26 +127,26 @@
             style="@style/text"
             android:text="@string/fiveQuestions" />
 
-        <LinearLayout style="@style/Linearlayouttwo">
+        <RadioGroup
+            android:id="@+id/question4radioGroup"
+            style="@style/radiogroup">
 
-            <CheckBox
-                android:id="@+id/question5answer1"
-                style="@style/checkbox"
-                android:gravity="center"
-                android:text="@string/question5answer1_txt" />
+            <RadioButton
+                android:id="@+id/question5answer1_nairobi"
+                style="@style/radiobutton"
+                android:text="@string/question5answer1_nairobi" />
 
-            <CheckBox
-                android:id="@+id/question5answer2"
-                style="@style/checkbox"
-                android:text="@string/question5answer2_txt" />
+            <RadioButton
+                android:id="@+id/question5answer2_lagos"
+                style="@style/radiobutton"
+                android:text="@string/question5answer2_lagos" />
 
-            <CheckBox
-                android:id="@+id/question5answer3"
-                style="@style/checkbox"
-                android:text="@string/question5answer3_txt" />
+            <RadioButton
+                android:id="@+id/question5answer3_kinshasa"
+                style="@style/radiobutton"
+                android:text="@string/question5answer3_kinshasa" />
+        </RadioGroup>
 
-
-        </LinearLayout>
 
         <Button
             style="@style/button"
