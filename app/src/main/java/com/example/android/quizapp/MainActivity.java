@@ -10,6 +10,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.Arrays;
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
     RadioButton question5answer2_lagos;
     RadioButton question5answer3_kinshasa;
     EditText nameInput;
+    EditText answerInput;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
         question5answer2_lagos = findViewById(R.id.question5answer2_lagos);
         question5answer3_kinshasa = findViewById(R.id.question5answer3_kinshasa);
         nameInput = ( EditText ) findViewById(R.id.firstAnswer);
+        answerInput = (EditText) findViewById(R.id.answerInput);
 
     }
 
@@ -89,6 +92,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Get the name of user
         String userName = nameInput.getText().toString();
+
 
         //1 question - take answers to array
         userCheckAnswers[0][0] = question1answer1_sudan.isChecked();
@@ -144,16 +148,19 @@ public class MainActivity extends AppCompatActivity {
 
         //reset answers
 
-        RadioGroup radioGroup1 = ( RadioGroup ) findViewById(R.id.question1radioGroup);
-        RadioGroup radioGroup2 = ( RadioGroup ) findViewById(R.id.question2radioGroup);
-        RadioGroup radioGroup3 = ( RadioGroup ) findViewById(R.id.question3radioGroup);
+        RadioGroup radioGroup1 = (RadioGroup) findViewById(R.id.question1radioGroup);
+        RadioGroup radioGroup2 = (RadioGroup) findViewById(R.id.question2radioGroup);
+        RadioGroup radioGroup3 = (RadioGroup) findViewById(R.id.question3radioGroup);
         RadioGroup radioGroup4 = (RadioGroup) findViewById(R.id.question4radioGroup);
+        EditText answerInput = (EditText) findViewById(R.id.answerInput);
+        EditText nameInput = (EditText) findViewById(R.id.firstAnswer);
 
 
         radioGroup1.clearCheck();
         radioGroup2.clearCheck();
         radioGroup3.clearCheck();
         radioGroup4.clearCheck();
+
 
         if (question4answer1_surad.isChecked()) question4answer1_surad.toggle();
         if (question4answer2_m_kilimanjaro.isChecked()) question4answer2_m_kilimanjaro.toggle();

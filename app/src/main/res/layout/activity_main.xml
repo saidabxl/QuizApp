@@ -15,8 +15,9 @@
 
         </View>
 
-        <ImageView style="@style/image"
-         android:contentDescription="@string/image"   />
+        <ImageView
+            style="@style/image"
+            android:contentDescription="@string/image" />
 
         <TextView style="@style/texttwo" />
 
@@ -26,6 +27,15 @@
             android:id="@+id/firstAnswer"
             style="@style/edittext"
             android:text="@string/nameHint" />
+
+        <TextView
+            android:id="@+id/freeQuestion"
+            style="@style/textfour" />
+
+        <EditText
+            android:id="@+id/answerInput"
+            style="@style/edittext2"
+            android:text="@string/freeAnswer" />
 
         <TextView
             style="@style/text"

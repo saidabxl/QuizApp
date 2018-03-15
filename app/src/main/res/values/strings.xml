@@ -6,6 +6,9 @@
     <string name="nameQuestions">What\'s your name?</string>
     <string name="nameHint">\?</string>
 
+    <string name="freeQuestion">This quiz is part of Udacity NanoDegree</string>
+    <string name="freeAnswer">\?</string>
+
     <string name="image">au</string>
 
     <string name="firstQuestion">Which one is Africa\'s newest country?</string>
