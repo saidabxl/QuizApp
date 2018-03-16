@@ -2,20 +2,20 @@ package com.example.android.quizapp;
 
 
 import android.content.Context;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity {
+
 
     //general variables that store information
     RadioGroup radioGroup1;
@@ -90,9 +90,9 @@ public class MainActivity extends AppCompatActivity {
                 {false, true, false},
         };
 
-        // Get the name of user
+        // Get the name of user and the free question
         String userName = nameInput.getText().toString();
-
+        String freeQuestion = answerInput.getText().toString();
 
         //1 question - take answers to array
         userCheckAnswers[0][0] = question1answer1_sudan.isChecked();
@@ -118,6 +118,7 @@ public class MainActivity extends AppCompatActivity {
         userCheckAnswers[4][0] = question5answer1_nairobi.isChecked();
         userCheckAnswers[4][1] = question5answer2_lagos.isChecked();
         userCheckAnswers[4][2] = question5answer3_kinshasa.isChecked();
+
 
         //Checking arrays and making toast
 

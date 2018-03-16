@@ -30,12 +30,15 @@
 
         <TextView
             android:id="@+id/freeQuestion"
-            style="@style/textfour" />
+            style="@style/text"
+            android:text="@string/freeQuestion"
+            android:labelFor="@+id/answerInput" />
 
         <EditText
             android:id="@+id/answerInput"
             style="@style/edittext2"
-            android:text="@string/freeAnswer" />
+            android:text="@string/freeAnswer"
+            android:imeOptions="actionDone" />
 
         <TextView
             style="@style/text"
