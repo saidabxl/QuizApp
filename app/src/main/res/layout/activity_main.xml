@@ -37,8 +37,8 @@
         <EditText
             android:id="@+id/answerInput"
             style="@style/edittext2"
-            android:text="@string/freeAnswer"
-            android:imeOptions="actionDone" />
+            android:inputType="number"
+            android:hint="5" />
 
         <TextView
             style="@style/text"

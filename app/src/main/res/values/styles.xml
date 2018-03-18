@@ -95,9 +95,7 @@
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:layout_marginBottom">@dimen/padding3</item>
         <item name="android:gravity">center</item>
-        <item name="android:inputType">textCapSentences</item>
         <item name="android:textColor">@color/text</item>
-        <item name="android:text">@string/freeAnswer</item>
         <item name="android:backgroundTint" tools:ignore="NewApi">@color/button_tint</item>
 
     </style>
